@@ -7,7 +7,7 @@ class Command(BaseCommand):
     help = 'Carga datos desde datos2024_limpio.csv en la base de datos'
 
     def handle(self, *args, **kwargs):
-        with open('datos2024_limpio.csv', encoding='utf-8') as f:
+        with open('datos2024_limpio.csv', encoding='utf-8-sig') as f:
             reader = csv.DictReader(f, delimiter=',', quotechar='"')
 
 
