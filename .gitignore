@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VSCode
+.vscode/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Migrations (solo si quieres regenerarlas desde cero)
+# Comentado por si deseas seguir versionando las migraciones
+# api/migrations/00*.py
+
+# Ignorar archivos CSV y Excel
+*.csv
+*.xls
+*.xlsx
+
+# Docker
+*.pid
+*.seed
+docker-compose.override.yml
+*.bak
+
+# Python environment
+.venv/
+env/
+ENV/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Bash
+*.sh~
+
+# Otros
+*.sqlite3-journal
+*.swp
+*.swo
+
+logs/
+*.cache
+
+# pytest o coverage
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
