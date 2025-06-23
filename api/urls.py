@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import registros_aleatorios
+from .views import coordenadas_unicas
 
 urlpatterns = [
-    path('registros-aleatorios/', registros_aleatorios, name='registros_aleatorios'),
+    path('coordenadas/', coordenadas_unicas, name='coordenadas_unicas'),
 ]

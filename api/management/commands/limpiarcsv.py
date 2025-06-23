@@ -6,7 +6,7 @@ class Command(BaseCommand):
     help = 'Limpia el archivo datos2024(100k).csv y genera datos2024_limpio.csv'
 
     def handle(self, *args, **kwargs):
-        input_file = 'datos2024(100k).csv'
+        input_file = 'datos2024(300k).csv'
         output_file = 'datos2024_limpio.csv'
 
         if not os.path.exists(input_file):
